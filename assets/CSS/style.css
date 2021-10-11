@@ -1,0 +1,35 @@
+header{
+  height: 80px;
+  background-color: teal;
+}
+
+/* TUTTE LE ALTEZZE DA RIVEDERE */
+
+
+.head_row{
+  height: inherit;
+}
+
+.box{
+  background-color:red
+}
+
+.jumbotron{
+  background-color:greenyellow;
+  min-height: 400px;
+}
+
+.box_cards{
+  height:200px;
+  background-color:blue;
+  border-radius:10px;
+}
+
+.about_me{
+  background-color:greenyellow;
+  min-height: 400px;
+}
+.contact_me{
+  background-color: blueviolet;
+  min-height: 200px;
+}
