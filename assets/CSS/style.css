@@ -40,8 +40,14 @@ header{
   color: #fff;
 }
 .u_navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.u_nav-bar{
   color: #fff;
 }
+
 .u_hamb{
   color: #fff;
 }
@@ -123,6 +129,10 @@ header{
 .clean_form{
   border: none;
   border-bottom: 1px solid lightgrey;
+}
+.form_color{
+  background-color: #1ABC9C;
+  border: none;
 }
 
 /* FOOTER -------------------------------- */
