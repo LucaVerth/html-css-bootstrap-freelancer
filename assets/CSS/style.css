@@ -1,5 +1,4 @@
 /* LAYOUT STRUCTURE */
-
 header{
   height:80px;
 }
@@ -20,6 +19,7 @@ header{
 .u_container-60{
   width: 60%;
   margin: 0 auto;
+  text-align: center;
 }
 .u_form{
   height: 300px;
@@ -34,7 +34,7 @@ header{
   text-align: center;
 }
 
-/*  PAGE CONTENT --------------------------------*/
+/*  PAGE CONTENT ---------------------*/
 
 /* header */
 .row_head{
@@ -55,7 +55,7 @@ header{
   cursor: pointer;
 }
 
-/* jumbotron section */
+/* jumbotron section --------------------*/
 .u_content_jumbo{
   display: flex;
   flex-direction: column;
@@ -71,14 +71,21 @@ header{
   height: 200px;
   padding: 0 15px;
 }
-
+.row_jumbo{
+  width: 70%;
+  margin: 0 auto;
+}
 .satanic_line{
+  width: 15%;
   height: 3px;
   background-color: #fff;
 }
+.satanic_line.black{
+  background-color: #000;
+}
 
 
-/* main section portfolio --------------------------------*/
+/* main section portfolio -----------------*/
 .img_portfolio{
   width: 100%;
   height: auto;
@@ -103,6 +110,15 @@ header{
 }
 .overlay i{
   font-size: 60px;
+  color: #fff;
+}
+.row_content{
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* main section about  --------------------*/
+.u_about{
   color: #fff;
 }
 
