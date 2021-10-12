@@ -47,6 +47,10 @@ header{
 .u_nav-bar{
   color: #fff;
 }
+.u_nav-bar:hover{
+  color: #1ABC9C;
+}
+
 
 .u_hamb{
   color: #fff;
@@ -67,7 +71,6 @@ header{
   width: 80%;
   margin: 0 auto;
   max-width: 80%;
-  height:400px;
   color: #fff;
 }
 .avatar_jumbo{
