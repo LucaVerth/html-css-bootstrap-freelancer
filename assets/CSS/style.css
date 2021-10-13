@@ -89,6 +89,9 @@ header{
 .satanic_line.black{
   background-color: #000;
 }
+.fas.fa-star{
+  font-size: 25px;
+}
 
 /* MAIN section portfolio ------------------- */
 .img_portfolio{
